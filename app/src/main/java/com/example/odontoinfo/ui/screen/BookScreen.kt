@@ -1,28 +1,30 @@
 package com.example.odontoinfo.ui.screen
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.odontoinfo.components.Header
 import com.example.odontoinfo.components.MenuItemsContainer
 import com.example.odontoinfo.models.ItemMenu
-
+import androidx.compose.foundation.layout.fillMaxSize
 @Composable
 fun BookScreen(
     onBookClick: () -> Unit
 ) {
     val buttonList = listOf(
         ItemMenu(
-            "Ir para mais Informações",
+            "Classificação CDAS",
             "MaisInformacoesScreen"
         ),
         ItemMenu(
-            Text_Item = "texte",
-            Route_Item = "texteScreen"
+            "Artigos Relacionados",
+            "TextoScreen"
         )
     )
 
-    Column {
+    Column (modifier = Modifier.fillMaxSize()) {
         Header()
 
         MenuItemsContainer(

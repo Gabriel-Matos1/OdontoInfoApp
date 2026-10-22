@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">odontoInfo</string>
+
+    /*  Strings gerais do app*/
+
+    <string name="app_name">OdontoInfo</string>
+    <string name="sessao_3D">Projeções 3D</string>
+    <string name="sessao_Book">Informações</string>
+    <string name="sessao_Quiz">Quiz</string>
+
+    /*  Informações do ICDAS - Páginas da sessão BOOK */
+    <string name="Descricao_ICDAS_inicial">O Sistema Internacional de Detecção e Avaliação de Cárie (ICDAS) é utilizado para classificar lesões de cárie por meio de um código de dois dígitos.\nÉ um sistema padronizado de avaliação das superfícies dentárias que permite determinar a condição restauradora e a presença de lesões de cárie.</string>
+    <string name="Descricao_Primeiro_Digito">Primeiro dígito: descreve a condição restauradora da superfície dentária e a presença de selantes.</string>
+    <string name="Descricao_Segundo_Digito">Segundo dígito: classifica a lesão de cárie de 0 a 6, de acordo com sua severidade, utilizando critérios visuais padronizados baseados nas alterações do esmalte e da dentina.</string>
+
 </resources>
