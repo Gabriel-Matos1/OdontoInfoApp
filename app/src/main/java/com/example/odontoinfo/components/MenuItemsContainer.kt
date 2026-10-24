@@ -26,7 +26,10 @@ import androidx.compose.ui.graphics.fromColorLong
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.odontoinfo.models.ItemMenu
+import com.example.odontoinfo.ui.theme.BackgroundColors
 import com.example.odontoinfo.ui.theme.CinzaMuitoClaro
+import com.example.odontoinfo.ui.theme.DetailsColors
+import com.example.odontoinfo.ui.theme.ScreenColors
 
 @Composable
 fun MenuItemsContainer(
@@ -38,7 +41,7 @@ fun MenuItemsContainer(
         columns = GridCells.Adaptive(minSize = 280.dp),
         modifier = modifier
             .fillMaxWidth()
-            .background(color = CinzaMuitoClaro),
+            .background(color = ScreenColors),
         contentPadding = PaddingValues(16.dp),
         horizontalArrangement = Arrangement.spacedBy(12.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
@@ -51,14 +54,14 @@ fun MenuItemsContainer(
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(50.dp)
-                    .background(color = Color.White),
+                    .background(color = CinzaMuitoClaro),
                 shape = RoundedCornerShape(12.dp),
                 colors = ButtonDefaults.buttonColors(
                     containerColor = Color.White,
                     contentColor = Color.Black,
 
                 ),
-                border = BorderStroke(1.dp, Color.Red)
+                border = BorderStroke(1.dp, DetailsColors)
             ) {
 
 

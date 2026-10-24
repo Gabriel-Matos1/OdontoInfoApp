@@ -21,13 +21,16 @@ import androidx.compose.ui.unit.sp
 import com.example.odontoinfo.ui.theme.CinzaClaro
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.res.stringResource
+import com.example.odontoinfo.ui.theme.BackgroundColors
+import com.example.odontoinfo.ui.theme.Verde
+
 @Composable
 fun Header() {
     Box(
         modifier = Modifier
             .fillMaxWidth()
             .height(70.dp)
-            .background(CinzaClaro),
+            .background(BackgroundColors),
         contentAlignment = Alignment.Center
     ) {/*
         Text(

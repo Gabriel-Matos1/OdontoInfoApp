@@ -16,11 +16,11 @@ fun BookScreen(
     val buttonList = listOf(
         ItemMenu(
             "Classificação CDAS",
-            "MaisInformacoesScreen"
+            "Book_InformationScreen"
         ),
         ItemMenu(
             "Artigos Relacionados",
-            "TextoScreen"
+            "Book_ReferenceScreen"
         )
     )
 
